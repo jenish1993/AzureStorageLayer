@@ -73,6 +73,7 @@
     <Compile Include="CloudStorageManager\AzureStorageManager.cs" />
     <Compile Include="CloudStorageManager\AzureTablesStorage.cs" />
     <Compile Include="StorageManagerExceptions\StorageConnectionNameNotFoundException.cs" />
+    <Compile Include="StorageManagerExceptions\StorageOperationException.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

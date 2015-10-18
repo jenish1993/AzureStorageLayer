@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AzureStorageLayer.CloudStorageManager
 {
-    partial class AzureStorageManager
+    public partial class AzureStorageManager
     {
         #region Public code minimizer methods
         /// <summary>

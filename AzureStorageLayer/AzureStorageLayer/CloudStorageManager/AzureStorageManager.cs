@@ -9,7 +9,7 @@ using AzureStorageLayer.StorageManagerExceptions;
 
 namespace AzureStorageLayer.CloudStorageManager
 {
-    partial class AzureStorageManager
+    public partial class AzureStorageManager
     {
         CloudStorageAccount storageAccount;
 

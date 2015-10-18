@@ -45,7 +45,11 @@ namespace AzureStorageLayer.CloudStorageManager
                 throw new StorageOperationException("Table Updation Excetion.  please see inner exception for more details.", ex);
             }
         }
-
+        /// <summary>
+        /// Delete the table entity form the azure table.
+        /// </summary>
+        /// <param name="tableName"></param>
+        /// <param name="AzureTable"></param>
         public void DeleteToTable(string tableName, TableEntity AzureTable)
         {
             if (storageAccount == null)
@@ -61,7 +65,6 @@ namespace AzureStorageLayer.CloudStorageManager
                 throw new StorageOperationException("Table Deletation Exception. please see inner exception for more details.", ex);
             }
         }
-
         /// <summary>
         /// Gets all table record based on the table name form the azure table storage.
         /// </summary>

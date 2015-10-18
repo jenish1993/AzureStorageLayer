@@ -9,6 +9,9 @@ using AzureStorageLayer.StorageManagerExceptions;
 
 namespace AzureStorageLayer.CloudStorageManager
 {
+    /// <summary>
+    /// Manages the azure storage. ie. your azure table, queue and blob storage.
+    /// </summary>
     public partial class AzureStorageManager
     {
         CloudStorageAccount storageAccount;

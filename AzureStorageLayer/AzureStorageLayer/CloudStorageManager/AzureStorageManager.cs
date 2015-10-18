@@ -45,7 +45,7 @@ namespace Common.CloudStorageManager
             }
             catch (ConfigurationException ex)
             {
-                throw new StorageConnectionNameNotFoundException(ex);
+                throw new StorageConnectionNameNotFoundException("please see inner exception for more details.",ex);
             }
         }
     }

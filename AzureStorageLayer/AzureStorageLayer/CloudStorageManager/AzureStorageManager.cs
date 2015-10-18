@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
 using System.Configuration;
-using Common.StorageManagerExceptions;
+using AzureStorageLayer.StorageManagerExceptions;
 
-namespace Common.CloudStorageManager
+namespace AzureStorageLayer.CloudStorageManager
 {
     partial class AzureStorageManager
     {
